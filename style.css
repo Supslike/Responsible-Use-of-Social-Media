@@ -1,0 +1,177 @@
+/* External CSS styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+/* Body styles */
+body {
+    background-color: #E8E4C9;
+}
+
+/* Navigation styles */
+nav {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255);
+    backdrop-filter: blur(20px);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    height: 2%;
+    padding: 2% 0%;
+    border-bottom: rgba(128, 128, 128, 0.286) 1px solid;
+}
+
+/* Header styles */
+h1 { 
+    text-indent: 0.5in;
+}
+
+/* Styles for the first content section */
+#first-content {
+    backdrop-filter: brightness(60%);
+}
+
+.main-content {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding-bottom: 10vh;
+}
+
+#first-content h2 {
+    font-size: 250%;
+    min-width: 100%;
+}
+
+#first-content .information {
+    padding-left: 1.5in;
+    padding-top: 10%;
+}
+
+.text-wrap, .img-wrap {
+    margin-top: 1in;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+/* Styles for special fonts in the first content section */
+.first-word {
+    word-spacing: 22px;
+    letter-spacing: 22px;
+    color: rgb(75, 215, 75);
+}
+
+.special-font {
+    color: rgb(75, 215, 75);
+    font-family:'Times New Roman', Times, serif; 
+    font-size: larger; 
+    margin-top: 10px; 
+    text-align: right; 
+    margin-right: 1in;
+    font-weight: bold;
+    font-size: 500%;
+}
+
+.special-font-second {
+    color: white;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+}
+
+.special-font-third {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #0059cc;
+    margin-top: 10px; 
+    text-align: right; 
+    margin-right: 1in;
+    font-weight: bold;
+    font-size: 500%;
+}
+
+#first-content .img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-content img {
+    opacity: 0.9;
+    width: 300px;
+    height: auto; 
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5%;
+    border-radius: 20px;  
+}
+
+/* Styles for the second content section */
+#second-content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+    padding-top: 30vh;
+    backdrop-filter: brightness(60%);
+}
+
+/* Styles for individual thoughts in the second content section */
+.thought {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: fit-content;
+    text-transform: none;
+}
+
+.thought {
+    padding-bottom: 20vh;
+}
+
+.thought .text-wrap {
+    min-width: 40%;
+    max-width: 40%;
+}
+
+.thought img {
+    opacity: 0.9;
+    width: 500px;
+    height: auto;   
+    border-radius: 20px;
+}
+
+.thought .img-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thought .information h2 {
+    border-left: rgb(75, 215, 75) solid 5px;
+    padding-left: 10px;
+    font-size: 200%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5vh;
+    width: fit-content;
+    transition: all 0.3s;
+}
+
+.thought .information p {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 0.5in;
+    font-size: larger;
+}
+
+.thought .information h2:hover {      
+    border-left: white solid 0px;
+    border-bottom: white solid 5px;
+    color: rgb(75, 215, 75);
+}
